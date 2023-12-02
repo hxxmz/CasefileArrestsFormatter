@@ -81,6 +81,8 @@ namespace CaseFileArrestFormatter
             string charges = "[B][COLOR=\"#DCDCDC\"][FONT=Book Antiqua]FRISK[/FONT][/COLOR][/B]\n[spoiler][img]" + textBox8.Text + "[/img][/spoiler]";
             string arrestInmates = "[B][COLOR=\"#DCDCDC\"][FONT=Book Antiqua]ARREST & INMATES[/FONT][/COLOR][/B]\n[spoiler][img]" + textBox9.Text + "[/img][/spoiler]";
 
+            string closingTags = "[/spoiler][/td][/tr][/table][/TD][/TR][/table][/CENTER][/FONT][/B]";
+
             //MessageBox.Show(agent + "\n" + assist +"\n" + suspect +"\n" + date +"\n" + type + "\n" + drugs + "\n" + weapons, "Output");
             MessageBox.Show(openingTags, "Output");
         }
