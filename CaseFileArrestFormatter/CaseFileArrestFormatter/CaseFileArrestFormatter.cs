@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows;
 
 namespace CaseFileArrestFormatter
 {
@@ -77,14 +78,21 @@ namespace CaseFileArrestFormatter
             string mid = "[/Left][/table][/size][table=\"width: 500, class: grid, align: center\"][/table]\n[Font=Book Antique][Size=3][color=#8d8dFF][B][U]ARREST EVIDENCE[/U][/B][/color][/Size][/Font]\n";
 
             string frisk = "[spoiler]\n[B][COLOR=\"#DCDCDC\"][FONT=Book Antiqua]FRISK[/FONT][/COLOR][/B]\n[spoiler][img]" + textBox6.Text + "[/img][/spoiler]";
-            string confiscation = "[B][COLOR=\"#DCDCDC\"][FONT=Book Antiqua]FRISK[/FONT][/COLOR][/B]\n[spoiler][img]" + textBox7.Text + "[/img][/spoiler]";
+            //string confiscation = "[B][COLOR=\"#DCDCDC\"][FONT=Book Antiqua]FRISK[/FONT][/COLOR][/B]\n[spoiler][img]" + textBox7.Text + "[/img][/spoiler]";
+            string confiscation = textBox7.Text != "" ? "[B][COLOR=\"#DCDCDC\"][FONT=Book Antiqua]FRISK[/FONT][/COLOR][/B]\n[spoiler][img]" + textBox7.Text + "[/img][/spoiler]" : "";
             string charges = "[B][COLOR=\"#DCDCDC\"][FONT=Book Antiqua]FRISK[/FONT][/COLOR][/B]\n[spoiler][img]" + textBox8.Text + "[/img][/spoiler]";
             string arrestInmates = "[B][COLOR=\"#DCDCDC\"][FONT=Book Antiqua]ARREST & INMATES[/FONT][/COLOR][/B]\n[spoiler][img]" + textBox9.Text + "[/img][/spoiler]";
 
             string closingTags = "[/spoiler][/td][/tr][/table][/TD][/TR][/table][/CENTER][/FONT][/B]";
 
+
+            string res = openingTags + agent + assist + suspect + date + type + drugs + weapons + mid + frisk + confiscation + charges + arrestInmates + closingTags;
+
             //MessageBox.Show(agent + "\n" + assist +"\n" + suspect +"\n" + date +"\n" + type + "\n" + drugs + "\n" + weapons, "Output");
-            MessageBox.Show(openingTags, "Output");
+            Clipboard.SetText(res);
+            MessageBox.Show(res, "Output");
+            //MessageBox.Show("Format is copied.", "Output");
+
         }
 
         private void button2_Click(object sender, EventArgs e)

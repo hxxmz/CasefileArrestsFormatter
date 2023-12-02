@@ -301,11 +301,11 @@ namespace CaseFileArrestFormatter
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.label12.Location = new System.Drawing.Point(82, 257);
+            this.label12.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(255)))));
+            this.label12.Location = new System.Drawing.Point(78, 258);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(159, 19);
+            this.label12.Size = new System.Drawing.Size(177, 20);
             this.label12.TabIndex = 26;
             this.label12.Text = "ARREST EVIDENCE";
             this.label12.Click += new System.EventHandler(this.label12_Click);
@@ -314,11 +314,11 @@ namespace CaseFileArrestFormatter
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label13.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(110)))), ((int)(((byte)(255)))));
-            this.label13.Location = new System.Drawing.Point(106, 9);
+            this.label13.Location = new System.Drawing.Point(91, 9);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(120, 19);
+            this.label13.Size = new System.Drawing.Size(139, 20);
             this.label13.TabIndex = 27;
             this.label13.Text = "C A P T U R E D";
             // 
@@ -326,7 +326,7 @@ namespace CaseFileArrestFormatter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::CaseFileArrestFormatter.Properties.Resources.output_onlinepngtools__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(336, 465);
             this.Controls.Add(this.label13);
