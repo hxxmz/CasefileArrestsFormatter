@@ -16,3 +16,4 @@ E:\Local\CasefileArrestsFormatter\CaseFileArrestFormatter\CaseFileArrestFormatte
 E:\Local\CasefileArrestsFormatter\CaseFileArrestFormatter\CaseFileArrestFormatter\obj\Debug\net5.0-windows\ref\CaseFileArrestFormatter.dll
 E:\Local\CasefileArrestsFormatter\CaseFileArrestFormatter\CaseFileArrestFormatter\obj\Debug\net5.0-windows\CaseFileArrestFormatter.pdb
 E:\Local\CasefileArrestsFormatter\CaseFileArrestFormatter\CaseFileArrestFormatter\obj\Debug\net5.0-windows\CaseFileArrestFormatter.genruntimeconfig.cache
+E:\Local\CasefileArrestsFormatter\CaseFileArrestFormatter\CaseFileArrestFormatter\obj\Debug\net5.0-windows\CaseFileArrestFormatter.Properties.Resources.resources
