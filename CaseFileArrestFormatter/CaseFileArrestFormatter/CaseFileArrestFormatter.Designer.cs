@@ -68,7 +68,6 @@ namespace CaseFileArrestFormatter
             this.label1.Size = new System.Drawing.Size(44, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Agent:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
@@ -86,7 +85,7 @@ namespace CaseFileArrestFormatter
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(189, 23);
             this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+
             // 
             // textBox2
             // 
@@ -105,7 +104,6 @@ namespace CaseFileArrestFormatter
             this.label2.Size = new System.Drawing.Size(46, 15);
             this.label2.TabIndex = 6;
             this.label2.Text = "Assists:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -117,7 +115,6 @@ namespace CaseFileArrestFormatter
             this.label3.Size = new System.Drawing.Size(54, 15);
             this.label3.TabIndex = 8;
             this.label3.Text = "Suspect:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox3
             // 
@@ -158,7 +155,6 @@ namespace CaseFileArrestFormatter
             this.dateTimePicker1.Size = new System.Drawing.Size(189, 23);
             this.dateTimePicker1.TabIndex = 11;
             this.dateTimePicker1.Value = new System.DateTime(2023, 12, 2, 0, 0, 0, 0);
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label5
             // 
@@ -182,7 +178,6 @@ namespace CaseFileArrestFormatter
             this.comboBox1.Size = new System.Drawing.Size(189, 23);
             this.comboBox1.TabIndex = 13;
             this.comboBox1.Text = "Select...";
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -233,7 +228,6 @@ namespace CaseFileArrestFormatter
             this.label8.Size = new System.Drawing.Size(36, 15);
             this.label8.TabIndex = 19;
             this.label8.Text = "Frisk:";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // textBox6
             // 
@@ -270,7 +264,6 @@ namespace CaseFileArrestFormatter
             this.label10.Size = new System.Drawing.Size(79, 15);
             this.label10.TabIndex = 23;
             this.label10.Text = "Last Charges:";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // textBox8
             // 
@@ -308,7 +301,6 @@ namespace CaseFileArrestFormatter
             this.label12.Size = new System.Drawing.Size(177, 20);
             this.label12.TabIndex = 26;
             this.label12.Text = "ARREST EVIDENCE";
-            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label13
             // 
@@ -326,7 +318,7 @@ namespace CaseFileArrestFormatter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CaseFileArrestFormatter.Properties.Resources.output_onlinepngtools__1_;
+            this.BackgroundImage = global::CaseFileArrestFormatter.Properties.Resources.fbi_logo_20;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(336, 465);
             this.Controls.Add(this.label13);

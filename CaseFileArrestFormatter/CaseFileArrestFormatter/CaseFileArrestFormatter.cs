@@ -18,51 +18,6 @@ namespace CaseFileArrestFormatter
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             string openingTags = "[B][FONT=Trebuchet MS][CENTER][table=\"width: 550, class: grid, align: center\"]\n[TR=\"bgcolor: #1E1E1E\"]\n[TD][table=\"width: 550, align: center\"][tr]\n[td][IMG]'https://i.imgur.com/qO2AJf8.png'[/IMG][/td][/tr][tr]\n[td][Font=Book Antique][Size=7][color=#8d8dFF][B]C A P T U R E D[/B][/color][/Size][/Font][/td][/tr][/table]\n[table=\"width: 550, align: center\"][tr][td]\n[size=2][table=\"width: 500, class: grid, align: center\"][Left]";

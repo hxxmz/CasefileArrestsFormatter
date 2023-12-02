@@ -73,6 +73,16 @@ namespace CaseFileArrestFormatter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fbi_logo_20 {
+            get {
+                object obj = ResourceManager.GetObject("fbi-logo-20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap output_onlinepngtools__1_ {
             get {
                 object obj = ResourceManager.GetObject("output-onlinepngtools (1)", resourceCulture);
